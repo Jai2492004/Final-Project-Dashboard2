@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <section class="sidebar">
+            <div id="logo" class="logo">
+                <img  src="png/bringova-logo.png" id="logo1" >
+            </div>
+            <div id="navbar">
+                <div class="button-txt">
+                <button><i class="fa fa-truck"  id="icon" ></i><span class="side-text"> Live Order</span></button>
+            </div>
+            <div class="button-txt">
+                <button><i class="fas fa-history" id="icon"></i><span
+                    class="side-text"> Order History</span></button>
+            </div>
+            <div class="button-txt">
+                <button><i class="fas fa-tags" id="icon"></i> <span
+                    class="side-text">Offers</span></button>
+            </div>
+            <div class="button-txt">
+                <button><i class="fa fa-shopping-cart" id="icon"></i> <span
+                    class="side-text"> Products</span></button>
+            </div>
+            <div class="button-txt">
+                <button><i class="fas fa-boxes" id="icon"></i> <span class="side-text">
+                    Stock</span></button>
+                </div>
+                <div class="button-txt">
+                <button><i class="fa fa-comments" id="icon"></i><span
+                    class="side-text">Message</span></button>
+                    </div>
+                    <div class="button-txt">
+                <button><i class="fa fa-gear" id="icon"></i> <span class="side-text">
+                    Settings</span></button>
+                    </div>
+            </div>
+            <div class="switch-container">
+                <div class="switch-txt">Bussy Mode</div>
+                <div class="switch2">
+                    <input type="checkbox" id="checkbox" />
+                    <label for="checkbox" class="checkbox1"></label>
+                </div>
+        </section>
+        <section class="main-content">
+            <section class="topbar">
+                <div class="searchbar">
+                    <input type="text" placeholder="Search" id="search">
+                </div>
+                <div class="profile-box">
+                    <div class="cbox">
+                        <div class="switch1-txt">Open For Order</div>
+                        <div class="switch1">
+                            <input type="checkbox" id="checkbox1" />
+                            <label for="checkbox1" class="checkbox2"></label>
+                        </div>
+                    </div>
+                    <div class="bell-icon">
+                        <img src="png/bell-outline-badged-svgrepo-com.svg" width="20" height="20" class="bell">
+                    </div>
+                    <div class="profile-photo">
+                        <div class="profile-photo1" style="display: flex; justify-content: center;"><img class="img1" src="png/customer-img.jpg" class="c-img" Style="width:35px; height:30px; border-radius: 9px;"> <div class="profileFont">Lumbomir Dvorak</div><i id="arrow" class="fa fa-angle-down"
+                            style="font-size:14px; color: rgb(0, 0, 0);"></i></div>
+                    </div>
+                </div>
+            </section>
+            <section class="content-bar">
+                <section class="left">
+                    <div class="order">
+                        <div class="order-number"><span class="order-font">Order Number</span> <span id="order-id">#256894</span></div>
+                        <div class="message"><i class="fa fa-comments" style=" color:white" id="msg-icon"></i> <span class="msg-txt">Message customer</span></div>
+                    </div>
+                    
+                    <div class="left-table1">
+                    <table class="table1">
+                        <thead>
+                            <tr>
+                                <th id="head1">Item Summary</th>
+                                <th>QTY</th>
+                                <th>Price</th>
+                                <th>Total Price</th>
+                            </tr>
+                        </thead>
+                            <tr>
+                                <td class="tx"style="display:flex; align-items: center; padding-top:10px; gap:10px;"><img src="png/prod1.png" width="20px" height="30px"> Chocolate Milkshake</td>
+                                <td>x 1</td>
+                                <td>£150.00</td>
+                                <td>£150.00</td>
+                            </tr>
+                            <tr>
+                                <td style="display:flex; align-items: center; padding-top:10px; gap:10px;"><img src="png/prod1.png" width="20px" height="30px">Chocolate Milkshake</td>
+                                <td>x 2</td>
+                                <td>£7.50</td>
+                                <td>£15.00</td>
+                            </tr>
+                            <tr>
+                                <td style="display:flex; align-items: center; padding-top: 10px; gap:10px;"><img src="png/prod1.png" width="20px" height="30px">Finish Water Large 3Kg</td>
+                                <td>x 3</td>
+                                <td>£70.00</td>
+                                <td>£210.00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </div>
+                    <div class="left-table2">
+                       <table class="table2">
+                        <tr>
+                            <td class="table2-head">Customer And Order Details</td>
+                        </tr>
+                        <tr>
+                            <td class="l-table2">Customer Name</td>
+                            <td class="r-table2">Harun Lbili</td>
+                        </tr>
+                        <tr>
+                            <td class="l-table2">Phone Name</td>
+                            <td class="r-table2">7918881829</td>
+                        </tr>
+                        <tr>
+                            <td class="l-table2">Bag Option</td>
+                            <td class="r-table2">No Bag</td>
+                        </tr>
+                        <tr>
+                            <td class="l-table2">Type</td>
+                            <td class="r-table2">Delivery</td>
+                        </tr>
+                        <tr>
+                            <td class="l-table2">Note</td>
+                            <td class="r-table2">N/A</td>
+                        </tr>
+                       </table>
+                    </div>
+                </section>
+                <section class="right">
+                    <div class="rider-details">
+                        <div class="rider-details-container">
+                        <div class="rider-details1">Rider Details</div>
+                      <div class="rider-details2" Style="display:flex; gap:10px; align-items: center; flex-wrap: wrap;"><img src="png/pexels-luc-marshall-563813-1427889.jpg" style="width:40px; border-radius: 5px;"><strong>Robart Suvent </strong><div class="riderButton">Track Rider</div>
+                    </div>
+                </div>
+                    </div>
+                    <div class="order-summary">
+                        <table class="order-summary-table">
+                            <tr>
+                                <td class="order-head">Order summary</td>
+                                <td class="order-sub-head"><span class="order-sub-head-container">On The Way</span></td>
+                            </tr>
+                            <tr>
+                                <td class="l-order">Order Created</td>
+                                <td class="s-order">Sun,May,7,2021</td>
+                            </tr>
+                            <tr>
+                                <td class="l-order">Order Time</td>
+                                <td class="s-order">06:24 AM</td>
+                            </tr>
+                            <tr>
+                                <td class="l-order">Subtotal</td>
+                                <td class="s-order">£375.00</td>
+                            </tr>
+                            <tr>
+                                <td class="l-order">Delivery Fee</td>
+                                <td class="s-order">£0.00</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="total">
+                        <p class="totalDetails1">Total</p>
+                        <p class="totalDetails2">£375.00</p>
+                    </div>
+                    <div class="delivery-address"> 
+                        <div class="delivey-address-container">
+                        <h2>Delivery Address</h2>
+                        <p><strong>Address line:</strong> 14 Anglesey Road</p>
+                        <p><strong>Flat/Building Name:</strong> James Court</p>
+                        <p><strong>Street Name:</strong> Anglesey Road</p>
+                        <p><strong>Postcode:</strong> En3 4hy</p>
+                    </div>
+                </div>
+                </section>
+                
+            </section>
+        </section>
+    </div>
+</body>
+</html>
